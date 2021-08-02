@@ -5,5 +5,3 @@
 #include <chrono>
 #include <cstdio>
 
-#include <GL/glew.h>
-
