@@ -5,7 +5,6 @@
 #include "MapleHooks.h"
 #include <ZXString.h>
 #include <Common.h>
-#include <hooker.h>
 #include <memedit.h>
 #include <timeapi.h>
 #include <LeoSpecial.h>
@@ -48,6 +47,7 @@ DWORD call_GetLevel = 0x008D8289;
 DWORD jmpBack_MaplePatchGame = 0x008D817D;
 DWORD jmpBack_MapleGetMap = 0x00855E10;
 //
+
 
 //v83 - needs updating for v111
 __declspec(naked)void ASM_GameRPCGetInfo()

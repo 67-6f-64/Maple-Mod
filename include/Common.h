@@ -15,6 +15,7 @@
 #include "winhook_types.h"
 #include "FakeModule.h"
 
+
 #define MAPLE_INJECT_USE_IJL TRUE
 
 /// <summary>
